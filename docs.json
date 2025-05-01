@@ -43,12 +43,7 @@
           },
           {
             "group": "Endpoint Examples",
-            "pages": [
-              "custom/subdirectory/api-reference/endpoint/get",
-              "custom/subdirectory/api-reference/endpoint/create",
-              "custom/subdirectory/api-reference/endpoint/delete",
-              "custom/subdirectory/api-reference/endpoint/webhook"
-            ]
+            "openapi": "custom/subdirectory/api-reference/openapi.json"
           }
         ]
       }
