@@ -15,17 +15,21 @@
         "groups": [
           {
             "group": "Get Started",
-            "pages": ["introduction", "quickstart", "development"]
+            "pages": [
+              "custom/subdirectory/introduction",
+              "custom/subdirectory/quickstart",
+              "custom/subdirectory/development"
+            ]
           },
           {
             "group": "Essentials",
             "pages": [
-              "essentials/markdown",
-              "essentials/code",
-              "essentials/images",
-              "essentials/settings",
-              "essentials/navigation",
-              "essentials/reusable-snippets"
+              "custom/subdirectory/essentials/markdown",
+              "custom/subdirectory/essentials/code",
+              "custom/subdirectory/essentials/images",
+              "custom/subdirectory/essentials/settings",
+              "custom/subdirectory/essentials/navigation",
+              "custom/subdirectory/essentials/reusable-snippets"
             ]
           }
         ]
@@ -35,15 +39,15 @@
         "groups": [
           {
             "group": "API Documentation",
-            "pages": ["api-reference/introduction"]
+            "pages": ["custom/subdirectory/api-reference/introduction"]
           },
           {
             "group": "Endpoint Examples",
             "pages": [
-              "api-reference/endpoint/get",
-              "api-reference/endpoint/create",
-              "api-reference/endpoint/delete",
-              "api-reference/endpoint/webhook"
+              "custom/subdirectory/api-reference/endpoint/get",
+              "custom/subdirectory/api-reference/endpoint/create",
+              "custom/subdirectory/api-reference/endpoint/delete",
+              "custom/subdirectory/api-reference/endpoint/webhook"
             ]
           }
         ]
