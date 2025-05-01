@@ -43,7 +43,10 @@
           },
           {
             "group": "Endpoint Examples",
-            "openapi": "custom/subdirectory/api-reference/openapi.json"
+            "openapi": {
+              "source": "custom/subdirectory/api-reference/openapi.json",
+              "directory": "custom/subdirectory/api-reference"
+            }
           }
         ]
       }
